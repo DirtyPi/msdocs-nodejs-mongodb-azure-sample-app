@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'msdocs-expressjs-mongodb-KUR2'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0FF0815EE9DF42A9B9887EDC4A88FD02 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B70BC3FABE904280AAD90AE9A5E70572 }}
           package: .
